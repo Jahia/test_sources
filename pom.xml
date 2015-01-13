@@ -70,7 +70,8 @@
         please contact the sales department at sales@jahia.com.
 
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.jahia.modules</groupId>
@@ -79,14 +80,13 @@
   </parent>
   <groupId>org.jahia.modules</groupId>
   <artifactId>testfafa</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>testfafa</name>
   <description>This is the custom module (testfafa) for running on a Digital Factory server.</description>
   <scm>
     <connection>scm:git:git@github.com:Jahia/test_sources.git</connection>
     <developerConnection>scm:git:git@github.com:Jahia/test_sources.git</developerConnection>
-    <tag>1_0</tag>
   </scm>
   <repositories>
     <repository>
